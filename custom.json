@@ -1,0 +1,16 @@
+{
+    "transport": [
+        {
+            "value": "TCP",
+            "precedence": 1
+        },
+        {
+            "value": "SCTP",
+            "precedence": 1
+        },
+        {
+            "value": "UDP",
+            "precedence": 1
+        }
+    ]
+}

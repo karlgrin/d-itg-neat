@@ -1,0 +1,6 @@
+ITGRecv version  (r)
+Compile-time options: bursty multiport debug
+Press Ctrl-C to terminate
+main: Before the accept()
+terminate: ** Terminate function ***
+Finish with CTRL-C! 
