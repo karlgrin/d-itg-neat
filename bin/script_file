@@ -1,3 +1,0 @@
--a localhost -C 10 -c 64 -T TCP -t 15000
--a localhost -C 10 -c 64 -T NEAT -t 15000 -NO "-P ../custom.json"
-

@@ -1,8 +1,0 @@
-ITGSend version  (r)
-Compile-time options: bursty multiport debug
-Started sending packets of flow ID: 1
-Started sending packets of flow ID: 2
-Finished sending packets of flow ID: 1
-
-Finished sending packets of flow ID: 2
-
