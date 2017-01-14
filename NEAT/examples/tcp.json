@@ -1,8 +1,0 @@
-{
-    "transport": [
-        {
-            "value": "TCP",
-            "precedence": 1
-        }
-    ]
-}
