@@ -9,7 +9,7 @@ ifeq ($(BUILD_ENV),WIN32_MINGW)
 else
 	@ printf "[ LD ]\t$@ <- $(OBJS) libnewran.a\n"
 endif
-	@ $(CXX) $(CXXFLAGS) -I$(NRDIR) -L$(NRDIR) $(OBJS) -lnewran -o $@ $(LDFLAGS) ../../NEAT/build/libneat.so /usr/lib/x86_64-linux-gnu/libuv.so
+	@ $(CXX) $(CXXFLAGS) -I$(NRDIR) -L$(NRDIR) $(OBJS) -lnewran -o $@ $(LDFLAGS) ../../neat/build/libneat.so /usr/lib/x86_64-linux-gnu/libuv.so
 	@ $(CP) $@ $(BIN)
 
 libnewran.a: newran

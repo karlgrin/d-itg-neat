@@ -2,7 +2,7 @@
 #include <fstream>
 
 extern "C"{
-    #include "../../NEAT/neat_internal.h"
+    #include "../../neat/neat_internal.h"
 }
 
 

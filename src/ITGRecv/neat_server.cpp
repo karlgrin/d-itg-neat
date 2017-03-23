@@ -12,8 +12,8 @@
 #include <cstdlib> 
 
 extern "C" {
-    #include "../../NEAT/neat.h"
-    #include "../../NEAT/neat_internal.h"
+    #include "../../neat/neat.h"
+    #include "../../neat/neat_internal.h"
 }
 
 /*******************************

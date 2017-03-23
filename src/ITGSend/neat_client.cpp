@@ -4,8 +4,8 @@
 
 
 extern "C"{
-    #include "../../NEAT/neat.h"
-    #include "../../NEAT/neat_internal.h"
+    #include "../../neat/neat.h"
+    #include "../../neat/neat_internal.h"
     #include <stdlib.h>
     #include <uv.h>
     #include <unistd.h>

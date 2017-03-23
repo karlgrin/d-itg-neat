@@ -8,7 +8,7 @@ ifeq ($(BUILD_ENV),WIN32_MINGW)
 else
 	@ printf "[ LD ]\t$@ <- $(OBJS)\n"
 endif
-	@ $(CXX) $(CXXFLAGS) $(OBJS) -o $@ $(LDFLAGS) ../../NEAT/build/libneat.so /usr/lib/x86_64-linux-gnu/libuv.so
+	@ $(CXX) $(CXXFLAGS) $(OBJS) -o $@ $(LDFLAGS) ../../neat/build/libneat.so /usr/lib/x86_64-linux-gnu/libuv.so
 	@ $(CP) $@ $(BIN)
 
 clean:
