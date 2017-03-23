@@ -343,7 +343,7 @@ void* neat_client_start(void* param){
 
     // wait for on_connected or on_error to be invoked
     if (neat_open(nfd[para.flowid].ctx, nfd[para.flowid].flow, nfd[para.flowid].config_primary_dest_addr ?
-             nfd[para.flowid].config_primary_dest_addr : "localhost", 8080, NULL, 0) == NEAT_OK) {
+             nfd[para.flowid].config_primary_dest_addr : "localhost", 8999, NULL, 0) == NEAT_OK) {
 
         neat_start_event_loop(nfd[para.flowid].ctx, NEAT_RUN_DEFAULT);
 
