@@ -31,7 +31,7 @@
 
 #include <stdio.h>
 
-#define DEBUG 1
+#define DEBUG 0
 
 #ifdef DEBUG
 	#define PRINTD(level, ...)		if (DEBUG >= level) { printf(__VA_ARGS__); fflush(stdout); }
