@@ -24,7 +24,8 @@ $ mkdir bin
 
 Build NEAT
 ```sh
-$ cd d-itg-neat/NEAT
+$ git clone https://github.com/NEAT-project/neat.git
+$ cd neat
 $ mkdir build && cd build
 $ cmake ..
 $ cmake --build .
