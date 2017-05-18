@@ -312,6 +312,14 @@ void* neat_client_start(void* param){
         goto cleanup;
     }
 
+    if (config_log_level == 0) {
+        neat_log_level(nfd[para.flowid].ctx, NEAT_LOG_ERROR);
+    } else if (config_log_level == 1){
+        neat_log_level(nfd[para.flowid].ctx, NEAT_LOG_WARNING);
+    } else {
+        neat_log_level(nfd[para.flowid].ctx, NEAT_LOG_DEBUG);
+    }
+
     if ((nfd[para.flowid].flow = neat_new_flow(nfd[para.flowid].ctx)) == NULL) {
         fprintf(stderr, "%s - error: could not create new neat flow\n", __func__);
         result = EXIT_FAILURE;
